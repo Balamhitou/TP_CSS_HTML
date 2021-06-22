@@ -1,0 +1,642 @@
+html{
+    margin : 0%;
+    padding : 0%;
+}
+header{
+    margin : 0;
+    padding: 0;
+
+}
+body {
+    font-family: Montserrat;
+    font-size: 16px;
+    padding: 0;
+   margin : 0;
+}
+.Global{
+    margin : 0% 0 2% 0;
+
+    display : flex;
+    flex-direction : row;
+    justify-content: flex-start;
+    width: 100%;
+    margin-bottom: 0;
+
+    
+    
+}
+.Global2{
+  
+    display : flex;
+    flex-direction : row;
+    justify-content: space-between;
+}
+.candidat_image{
+    width : 80%;
+}
+.premier{
+    margin-right : 1%;
+    margin-left: 10%;
+    flex-basis:  20%;
+    margin-top: 2%;
+   
+}
+.pad{
+    padding-left : 9%;
+}
+.ecole{
+    font-size : 14px;
+    font-style :italic;
+}
+.myimage{
+    width : 80%;
+    border-radius: 50%;
+}
+.deuxieme{
+    padding-top:0%;
+    margin-left: 0;
+    flex-basis: 70%;
+    margin-top: 0;
+
+
+}
+.content{
+  
+    margin : 2% 0 2% 0;
+    display : flex;
+    flex-direction : row;
+    justify-content: center;
+}
+.left_content{
+    flex-basis : 50%;
+    order : 2;
+    margin-left : 15%;
+    border-left: 1px solid rgb(255, 217, 0);
+    padding-left: 10%;
+
+
+}
+.Global1{
+    display: flex;
+    margin : 0;
+    padding: 0;
+}
+.right_content{
+    flex-basis : 30%;
+    order : 1;
+    margin-left : 10%;
+
+}
+.titre_primaire1{
+    font-family: 'Raleway Light' !important;
+    font-weight: none !important;
+    font-style: none !important;
+    font-size:30px;
+    color : rgb(17, 17, 17);
+    border-bottom: 1px solid rgb(17, 17, 17) ;
+    border-color:  rgb(20, 20, 20);
+    padding-bottom: 3%;
+
+}
+.first{
+    flex-basis: 90%;
+    width :120%;
+    font-size: 12px;
+}
+ul{
+    list-style: none;
+    padding : 0%;
+
+}
+p{
+    margin : 0;
+    padding: 0;
+}
+
+.competences{
+    width :65%;
+    font-size: 16px;
+    line-height: 195%;
+    
+}
+.titre_secondaire{
+    font-weight: bold;
+}
+.logiciels{
+    width :65%;
+    font-size: 16px;
+    line-height: 195%;
+    
+
+}
+.second{
+    margin-left : 10%;
+}
+.centres_interets{
+    line-height: 195%;
+}
+.MesLangues{
+    line-height: 195%;
+}
+.spL{
+    padding-left: 7%;
+}
+.titre_primaire{
+    font-family: 'Raleway Light' !important;
+    font-weight: none !important;
+    font-style: none !important;
+    font-size:30px;
+    color : rgb(221, 191, 20);
+    border-bottom: 1px solid rgb(255, 217, 0) ;
+    border-color:  rgb(255, 217, 0);
+    padding-bottom: 3%;
+    
+}
+.Mll{
+    width : 70%;
+}
+.candidat_informations{
+    line-height: 200%;
+    flex-basis: 130%;
+    color : black;
+    margin-left : 15%;
+    background-color: rgb(255, 217, 0);
+    padding-left: 2%;
+}
+.name_cont{
+    margin-right : 15%;
+}
+.pre-content{
+    line-height: 190%;
+    width :80%;
+    margin-top: 3%;
+
+}
+
+.nom{
+    font-family: 'Raleway Light' !important;
+    font-weight: none;
+    font-style: none ;
+    font-size: 40px;
+}
+.info_title{
+    color :Black;
+    font-weight: bold;
+}
+
+@media screen and (max-width : 768px){
+
+.candidat_informations{
+margin-left: 0%;
+flex-basis: 150%;
+}
+.name_cont{
+flex-basis: 20%;
+font-size: 12px;
+}
+.nom{
+font-size: 30px;
+}
+.myimage{
+    width :100%;
+    padding-top: 20%;
+    margin-left: 0%;
+}
+.MesLangues{
+font-size : 16px;
+}
+.competences{
+    font-size : 16px;
+}
+.Formations{
+    font-size : 16px;
+}
+.centres_interets{
+    font-size : 16px;
+}
+.mesexp{
+    font-size : 16px;
+}
+.titre_primaire{
+font-size: 25px;
+}
+.titre_primaire1{
+    font-size: 25px;
+}
+.left_content{
+flex-basis:60%;
+}
+.right_content{
+flex-basis: 45%;
+}
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width : 425px){
+
+        body{
+            font-size: 9px;
+        }
+        .Global{
+            justify-content: flex-start;
+            
+        }
+        .content{
+            justify-content: flex-start;
+            margin-left: 0%;
+        }
+        .myimage{
+            width : 80%;
+            
+        }
+        
+        .candidat_informations{
+            flex-basis: 100% ;
+            margin-left: -15%;
+        }
+        .nom{
+            font-size: 14px;
+        }
+        .name_cont{
+            margin-right: 30%;
+            padding-top: 13%;
+        }
+       
+        .premier{
+            margin-right : 0%;
+            
+
+            flex-basis:  30%;
+           
+        }
+        .deuxieme{
+            padding-top:0%;
+            margin-left: 0;
+            flex-basis: 50%;
+        }
+        
+        
+     
+        .titre_primaire{
+            font-size: 16px;
+        }
+        .titre_primaire1{
+            font-size: 16px;
+        }
+        .candidat_image{
+            width : 50%;
+            padding-left: 10%;
+        }
+        .left_content,.right_content{
+            font-size: 9px;
+        }
+        .left_content{
+            width : 90%;
+            
+    
+           
+        }
+        .right_content{
+            width: 30%;
+     
+            margin-left : 5%;
+        }
+        .competences{
+            font-size: 11px;
+            padding-left: 0%;
+            margin-left: 0%;
+        }
+        .titre_primaire{
+        font-size: 14px;
+        }
+        .logiciels{
+            font-size: 11px;
+        }
+        .centres_interets{
+            font-size: 11px;
+        }
+        .Formations{
+            font-size: 11px;
+        }
+        .mesexp{
+            font-size: 11px;
+        }
+        .pad{
+            font-size: 11px;
+        }
+        .MesLangues{
+            font-size: 11px;
+        }
+        
+    
+    
+}
+@media screen and (max-width:566px){
+    body{
+        font-size: 9px;
+    }
+    .Global{
+        justify-content: flex-start;
+        
+    }
+    .content{
+        justify-content: flex-start;
+        margin-left: 0%;
+    }
+    .myimage{
+        width : 80%;
+        
+    }
+    
+    .candidat_informations{
+        flex-basis: 100% ;
+        margin-left: -15%;
+        
+    }
+    .nom{
+        font-size: 16px;
+    }
+    .name_cont{
+        margin-right: 30%;
+        padding-top: 13%;
+    }
+   
+    .premier{
+        margin-right : 0%;
+        
+
+        flex-basis:  30%;
+       
+    }
+    .deuxieme{
+        padding-top:0%;
+        margin-left: 0;
+        flex-basis: 60%;
+    }
+    
+    
+ 
+    .titre_primaire{
+        font-size: 16px;
+    }
+    .titre_primaire1{
+        font-size: 16px;
+    }
+    .candidat_image{
+        width : 50%;
+        padding-left: 10%;
+    }
+    .left_content,.right_content{
+        font-size: 9px;
+    }
+    .left_content{
+        width : 90%;
+        
+
+       
+    }
+    .right_content{
+        width: 30%;
+ 
+        margin-left : 5%;
+    }
+    .competences{
+        font-size: 11px;
+        padding-left: 0%;
+        margin-left: 0%;
+    }
+    .titre_primaire{
+    font-size: 14px;
+    }
+    .logiciels{
+        font-size: 11px;
+    }
+    .centres_interets{
+        font-size: 11px;
+    }
+    .Formations{
+        font-size: 11px;
+    }
+    .mesexp{
+        font-size: 11px;
+    }
+    .pad{
+        font-size: 11px;
+    }
+    .MesLangues{
+        font-size: 11px;
+    }
+}
+@media screen and (max-width:375px){
+    body{
+        font-size: 9px;
+    }
+    .Global{
+        justify-content: flex-start;
+        margin-left: 0;
+        
+    }
+    .content{
+        justify-content: flex-start;
+        margin-left: 0%;
+    }
+    .myimage{
+        width : 90%;
+        
+    }
+    
+    .candidat_informations{
+        flex-basis: 100% ;
+        margin-left: -25%;
+        
+    }
+    .nom{
+        font-size: 16px;
+    }
+    .name_cont{
+        margin-right: 30%;
+        padding-top: 13%;
+    }
+   
+    .premier{
+        margin-left: 2%;
+        margin-right : 0%;
+        
+
+        flex-basis:  30%;
+       
+    }
+    .deuxieme{
+        padding-top:0%;
+        margin-left: 0;
+        flex-basis: 100%;
+    }
+    
+    
+ 
+    .titre_primaire{
+        font-size: 16px;
+    }
+    .titre_primaire1{
+        font-size: 16px;
+    }
+    .candidat_image{
+        width : 50%;
+        padding-left: 10%;
+    }
+    .left_content,.right_content{
+        font-size: 9px;
+    }
+    .left_content{
+        width : 90%;
+        
+
+       
+    }
+    .right_content{
+        width: 30%;
+ 
+        margin-left : 5%;
+    }
+    .competences{
+        font-size: 11px;
+        padding-left: 0%;
+        margin-left: 0%;
+    }
+    .titre_primaire{
+    font-size: 14px;
+    }
+    .logiciels{
+        font-size: 11px;
+    }
+    .centres_interets{
+        font-size: 11px;
+    }
+    .Formations{
+        font-size: 11px;
+    }
+    .mesexp{
+        font-size: 11px;
+    }
+    .pad{
+        font-size: 11px;
+    }
+    .MesLangues{
+        font-size: 11px;
+    }
+
+
+
+}
+@media screen and (max-width : 320){
+
+    body{
+        font-size: 9px;
+    }
+    .Global{
+        justify-content: flex-start;
+        
+    }
+    .content{
+        justify-content: flex-start;
+        margin-left: 0%;
+    }
+    .myimage{
+        width : 100%;
+        
+    }
+    
+    .candidat_informations{
+        flex-basis: 100% ;
+        margin-left: -15%;
+    }
+    .nom{
+        font-size: 14px;
+    }
+    .name_cont{
+        margin-right: 30%;
+        padding-top: 13%;
+    }
+   
+    .premier{
+        margin-right : 0%;
+        
+
+        flex-basis:  30%;
+       
+    }
+    .deuxieme{
+        padding-top:0%;
+        margin-left: 0;
+        flex-basis: 50%;
+    }
+    
+    
+ 
+    .titre_primaire{
+        font-size: 16px;
+    }
+    .titre_primaire1{
+        font-size: 16px;
+    }
+    .candidat_image{
+        width : 50%;
+        padding-left: 10%;
+    }
+    .left_content,.right_content{
+        font-size: 9px;
+    }
+    .left_content{
+        width : 90%;
+        
+
+       
+    }
+    .right_content{
+        width: 30%;
+ 
+        margin-left : 5%;
+    }
+    .competences{
+        font-size: 11px;
+        padding-left: 0%;
+        margin-left: 0%;
+    }
+    .titre_primaire{
+    font-size: 14px;
+    }
+    .logiciels{
+        font-size: 11px;
+    }
+    .centres_interets{
+        font-size: 11px;
+    }
+    .Formations{
+        font-size: 11px;
+    }
+    .mesexp{
+        font-size: 11px;
+    }
+    .pad{
+        font-size: 11px;
+    }
+    .MesLangues{
+        font-size: 11px;
+    }
+    
+    
+}
